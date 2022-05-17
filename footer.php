@@ -5,7 +5,7 @@
 	  	<footer class="row ">
 		    <div class="col-6">
 		      <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
-		        <img src="img/LogoUndertext.png" class="img-fluid" alt="..." >
+		        <img src="img/LogoUnderText.png" class="img-fluid" alt="..." >
 		      </a>
 		    </div>
 
