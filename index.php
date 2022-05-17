@@ -42,12 +42,12 @@ for($i=0; $i<$p; $i++){
 		<title>Home</title>
 	</head>
 	<body>
-		<img src="img/header.jpg" width="100%">
+		<img src="img/Header.jpg" width="100%">
      	<div class="container-fluid darkSquare">
      		<div class="container">
      			<div class="row">
      				<div class="col-6 p-5">
-     					<img src="img/LogoUndertext.png" class="img-fluid" alt="..." >
+     					<img src="img/LogoUnderText.png" class="img-fluid" alt="..." >
      				</div>
      				<div class="col-6 align-self-center">
      					<div class="">

@@ -6,7 +6,7 @@
 <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #162A35">
   <div class="container">
     <a class="navbar-brand" href="index.php">
-      <img src="img/logoNoUnderText.png" alt=""  height="50px">
+      <img src="img/LogoNoUnderText.png" alt=""  height="50px">
     </a>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ">
