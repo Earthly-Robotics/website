@@ -1,0 +1,11 @@
+Iron Golem TITLE
+IronGolem.png FRONTIMG
+back2.jpg BACKIMG
+project not a started yet DISC
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Start Project KOP
+back2.jpg POSTIMG
+project has not started yet TEXTA
+ TEXTB
+ TEXTC
+ TEXTD

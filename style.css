@@ -1,0 +1,47 @@
+body{
+	width: 100%;
+	margin: 0 auto;
+	font-family: Century Gothic;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 30px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.darkSquare{
+	background-color:#162A35 ;
+}
+
+.butt{
+	background-color: #46c2c7;
+  border-radius: 30px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+	padding: 0.405rem 0.85rem;
+
+}
+.butt:hover{
+	background-color: #1e5e85 !important;
+	text-decoration: none;
+	color: white;
+}
