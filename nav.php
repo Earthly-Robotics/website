@@ -18,3 +18,9 @@
     </div>
   </div>
 </nav>
+
+<script>
+window.addEventListener("load", function(){
+    document.getElementsByClassName('disclaimer')[0].remove();
+});
+</script>
