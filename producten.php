@@ -45,7 +45,7 @@ for($i=0; $i<$p; $i++){
 		<div class="container-fluid">
 	    	<div class="container">
 	    		<div class="row p-4">
-					<div class="col-6 m-auto card" style="border: none;">
+					<div class="col-lg-6 m-auto card" style="border: none;">
 						<img src="img/<?php echo $backImg[0];?>" class="card-img" alt="..." style="border-radius: 6px;">
 						<div class="card-img-overlay p-0" style="height: 50px;">
 						    <img src="img/<?php echo $frontImg[0];?>" class="img-fluid px-5 m-4" alt="FlowerGolem" width="90%" style="opacity:150%">
@@ -61,7 +61,7 @@ for($i=0; $i<$p; $i++){
 				</div>
 				<hr>
 				<div class="row p-4">
-					<div class="col-6 m-auto card" style="border: none;">
+					<div class="col-lg-6 m-auto card" style="border: none;">
 						<img src="img/<?php echo $backImg[1];?>" class="card-img" alt="..." style="border-radius: 6px;">
 						<div class="card-img-overlay p-0" style="height: 50px;">
 						    <img src="img/<?php echo $frontImg[1];?>" class="img-fluid px-5 m-4" alt="CopperGolem" width="90%" style="opacity:150%">
@@ -76,7 +76,7 @@ for($i=0; $i<$p; $i++){
 				</div>
 				<hr>
 				<div class="row p-4">
-					<div class="col-6 m-auto card" style="border: none;">
+					<div class="col-lg-6 m-auto card" style="border: none;">
 						<img src="img/<?php echo $backImg[2];?>" class="card-img" alt="..." style="border-radius: 6px;">
 						<div class="card-img-overlay p-0" style="height: 50px;">
 						    <img src="img/<?php echo $frontImg[2];?>" class="img-fluid px-5 mx-5" alt="IronGolem" width="85%" style="opacity:150%">

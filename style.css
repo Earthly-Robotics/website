@@ -1,13 +1,4 @@
-body{
-	width: 100%;
-	margin: 0 auto;
-	font-family: Century Gothic;
-}
 
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
-}
 
 /* Track */
 ::-webkit-scrollbar-track {
@@ -23,6 +14,54 @@ body{
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
+}
+
+body{
+	width: 100%;
+	margin: 0 auto;
+	font-family: Century Gothic;
+}
+.card-body{
+	height: 240px;
+}
+@media (max-width: 992px) {
+  body {
+    font-size: 40px;
+  }
+  #logo{
+  	height: 150px;
+  }
+  .cardu{
+  	margin: 3%;
+  }
+  .card-body{
+  	display: inline-block !important;
+  	height: auto;
+  }
+  .center{
+  	text-align: center;
+  	
+  }
+  h1{
+  	font-size: 65px;
+  }
+  h5{
+  	font-size: 55px !important;
+  }
+  h3{
+  	font-size: 60px;
+  }
+  .margin{
+  	margin: 2%;
+  }
+  #banner{
+  	width: 85%;
+  	height: auto;
+  }
+  #banerr{
+  	width: 100%;
+  	height: auto !important;
+  }
 }
 
 .darkSquare{

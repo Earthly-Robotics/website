@@ -65,10 +65,10 @@ fclose($myfile);
 	<body>
 		<div class="container-fluid p-0">		
         	<center>
-	            <div class="card r" style="border:none; height: 50%; overflow: hidden;">
+	            <div id="banerr"class="card r" style="border:none; height: 50%; overflow: hidden;">
 	            	<?php echo  "<img class=card-img-top width=100% src=img/$backImg />";?>
 	                <div class="card-img-overlay card-inverse">
-						<?php echo  "<img height=85% src=img/$frontImg />";?>  
+						<?php echo  "<img id=banner height=85% src=img/$frontImg />";?>  
 	                </div>  
 	            </div>
         	</center>	
@@ -80,10 +80,10 @@ fclose($myfile);
 			    <?php 
 			    	for($i=0; $i< $amountAlinea; $i++){
 			    		echo '  <div class="row p-4">
-				    				<div class="col-6 m-auto">
+				    				<div class="col-lg-6 m-auto">
 										<img src="img/'.$postimg[$i].'" class="card-img" alt="..." style="border-radius: 6px;">  	
 									</div>
-									<div class="col-6">
+									<div class="col-lg-6">
 										<h1>' .  $kopjes[$i] . ' </h1>
 										<p>' .  $texten[$i] . '</p>   	
 										<a href="blogPost.php?num= '. $blognum .' & postnum='. $a =$i + 1  .'" class="butt" style="background-color: #46c2c7; border-radius: 30px;">Go to the blog</a>	
