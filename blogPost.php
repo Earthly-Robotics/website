@@ -95,11 +95,11 @@ fclose($myfile);
 	    </div>
 	    <div class="container">
     		<div class="row">
- 				<div class="col-6">
+ 				<div class="col-lg-6">
  					<div class="m-5">
 			     		<h1 class="fw-bold"><?php echo $title; ?></h1>
 					    <p> <?php echo $disc; ?></p>
-					    <h2><?php echo $kopje; ?></h2>
+					    <h3><?php echo $kopje; ?></h3>
 					    <p><?php echo $textA; ?></p>
 					    <p><?php echo $textB; ?></p>
 					    <p><?php echo $textC; ?></p>
@@ -108,7 +108,7 @@ fclose($myfile);
 					   
 			     	</div>
  				</div>
- 				<div class="col-6 p-5">
+ 				<div class="col-lg-6 p-5">
  					<?php echo '<img src=img/'.$postImg.' class=img-fluid alt= post image>'?>
  				</div>
  			</div>
