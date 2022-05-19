@@ -1,11 +1,11 @@
 Copper Golem TITLE
 CopperGolem.png FRONTIMG
 back1.jpg BACKIMG
-project not a started yet DISC
+Project has not started yet DISC
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Start Project KOP
 back1.jpg POSTIMG
-project has not started yet TEXTA
+Project has not started yet TEXTA
  TEXTB
  TEXTC
  TEXTD
