@@ -11,7 +11,7 @@
 	    <div class="container">
     		<div class="row">
  				<div class="col-lg-6 p-5">
- 					<img src="img/avatar.jpg" class="img-fluid" alt="..." >
+ 					<img src="img/Team.png" class="img-fluid" alt="..." >
  				</div>
  				<div class="col-lg-6 align-self-center">
  					<div class="center">

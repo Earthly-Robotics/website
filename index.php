@@ -114,14 +114,14 @@ for($i=0; $i<$p; $i++){
     	<hr  style="width:80%; margin: 0 auto; background-color: #; margin: 4%;margin-left:10%; margin-left: 10%;">
     	<div class="container">
     		<div class="row">
- 				<div class="col-lg-5 p-5 m-3">
- 					<img src="img/avatar.jpg" class="img-fluid" alt="..." >
+ 				<div class="col-lg-6 p-5 m-3">
+ 					<img src="img/group.png" class="img-fluid" alt="..." >
  				</div>
- 				<div class="col-lg-6 align-self-center">
+ 				<div class="col-lg-5 align-self-center">
  					<div class="center margin">
 			     		<h1 class="card-title fs-bold">Ons Team</h1>
 					   <p class="card-text">Dit zijn de mensen die jou blij willen maken met een robot</p>
-					   <a href="team.php" class="butt ">Go somewhere</a>
+					   <a href="team.php" class="butt ">View Team</a>
 			     	</div>
  				</div>
  			</div>
@@ -149,13 +149,13 @@ for($i=0; $i<$p; $i++){
 	    				<h1 class="text-center m-4">Met dank aan onze sponsoren </h1>
 	    			</div>
 	    			<div class="col-lg-4">
-	    				<img src="img/circle.png" class="card-img" alt="..." >
+	    				<img src="img/Logo_Small_Red.png" class="card-img" alt="sponsor" >
 	    			</div>
 					<div class="col-lg-4">
-						  <img src="img/circle.png" class="card-img" alt="...">
+						  <img src="img/Logo_Small_Red.png" class="card-img" alt="sponsor">
 					</div>
 					<div class="col-lg-4">
-						  <img src="img/circle.png" class="card-img" alt="...">
+						  <img src="img/Logo_Small_Red.png" class="card-img" alt="sponsor">
 					</div>
 					
 					</div>

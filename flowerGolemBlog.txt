@@ -3,6 +3,17 @@ FlowerGolem.png FRONTIMG
 back3.jpg BACKIMG 
 Earthly Robotics wil de wereld verbeteren. Na een aantal successen willen we weer een robot ontwikkelen. Deze moet de wereld vergroenen, problemen als klimaatverandering en het uitsterven van de bij helpen oplossen. Dit is de 1e robot die ons bedrijf gebouwt wordt.  DISC 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Trial and Error KOP 
+back1.jpg POSTIMG
+
+Na lang onderzoek te hebben gedaan zijn we de afgelopen weken bezig geweest met dat onderzoek omzetten in bouwtekeningen, en prototypes. Natuurlijk hebben we die prototype onderdelen moeten testen en daarop baseren wat de volgende stappen zijn binnen het bouwprocess. TEXTA
+
+ TEXTB
+
+ TEXTC
+
+ TEXTD
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Stap 1 binnen het Project KOP 
 back3.jpg POSTIMG
 
