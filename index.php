@@ -146,16 +146,22 @@ for($i=0; $i<$p; $i++){
      		<div class="container">
      			<div class="row">
 	    			<div class="col-lg-12">
-	    				<h1 class="text-center m-4">Met dank aan onze sponsoren </h1>
+	    				<h1 class="text-center m-4">Met dank aan onze sponsor </h1>
 	    			</div>
 	    			<div class="col-lg-4">
-	    				<img src="img/Logo_Small_Red.png" class="card-img" alt="sponsor" >
+	    				<a class="" href="https://www.hzpc.com/nl">
+	    					<img src="img/Logo_Small_Red.png" class="card-img" alt="sponsor" >
+	    				</a>
 	    			</div>
 					<div class="col-lg-4">
-						  <img src="img/Logo_Small_Red.png" class="card-img" alt="sponsor">
+						 <a class="" href="https://www.hzpc.com/nl">
+	    					<img src="img/Logo_Small_Red.png" class="card-img" alt="sponsor" >
+	    				</a>
 					</div>
 					<div class="col-lg-4">
-						  <img src="img/Logo_Small_Red.png" class="card-img" alt="sponsor">
+						<a class="" href="https://www.hzpc.com/nl">
+	    					<img src="img/Logo_Small_Red.png" class="card-img" alt="sponsor" >
+	    				</a>
 					</div>
 					
 					</div>
