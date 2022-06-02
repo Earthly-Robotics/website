@@ -44,7 +44,7 @@ for($i=0; $i<$p; $i++){
 		<title>Home</title>
 	</head>
 	<body>
-		<div id="demo" style="position:absolute;color:white; left:20%;font-size: 25px;">
+		<div id="demo" style="position:absolute;color:white;font-size: 25px;">
 
 		</div>
 		<img src="img/Header.jpg" width="100%">
