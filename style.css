@@ -24,6 +24,10 @@ body{
 .card-body{
 	height: 240px;
 }
+#demo{
+  top: 50%;
+  left:20%;
+}
 @media (max-width: 992px) {
   body {
     font-size: 40px;
@@ -61,6 +65,10 @@ body{
   #banerr{
   	width: 100%;
   	height: auto !important;
+  }
+  #demo{
+    top: 20% !important;
+    left: 15% !important;
   }
 }
 
