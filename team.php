@@ -28,7 +28,7 @@
 			        <img src="img/portretten/Gaia.jpg" class="img-fluid" alt="..." >
 			        <h3 class="mb-0">Gaia Miglino</h3>
 			      	<p class="fw-bold mb-1">ICT</p>
-			      	<p>Onderzoeker</p>
+			      	<p>Onderzoeker en besturing van arm</p>
 			    </div>
 			    <div class="col-lg-4 my-3 text-center">
 			        <img src="img/portretten/JelmerI.jpg" class="img-fluid" alt="..." >
