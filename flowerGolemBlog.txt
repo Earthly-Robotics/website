@@ -3,38 +3,36 @@ FlowerGolem.png FRONTIMG
 back3.jpg BACKIMG 
 Earthly Robotics wil de wereld verbeteren. Na een aantal successen willen we weer een robot ontwikkelen. Deze moet de wereld vergroenen, problemen als klimaatverandering en het uitsterven van de bij helpen oplossen. Dit is de 1e robot die ons bedrijf gebouwt wordt.  DISC 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ SP3
 Trial and Error KOP 
 back1.jpg POSTIMG
+back2.jpg POSTIMG
 
-Na lang onderzoek te hebben gedaan zijn we de afgelopen weken bezig geweest met dat onderzoek omzetten in bouwtekeningen, en prototypes. Natuurlijk hebben we die prototype onderdelen moeten testen en daarop baseren wat de volgende stappen zijn binnen het bouwprocess. TEXTA
+Na lang onderzoek te hebben gedaan zijn we de afgelopen weken bezig geweest met dat onderzoek omzetten in bouwtekeningen, en prototypes. Natuurlijk hebben we die prototype onderdelen moeten testen en daarop baseren wat de volgende stappen zijn binnen het bouwprocess. MAINT
 
- TEXTB
 
- TEXTC
-
- TEXTD
+ EP3
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ SP2
 Stap 1 binnen het Project KOP 
 back3.jpg POSTIMG
 
-Onderzoek, Onderzoek en meer onderzoek. Aan het begin van het project is het natuurlijk super belangrijk om eerst alles op papier duidelijk te krijgen voordat we beginnen met het bouwen. Door alles eerst te onderzoeken zorgen we dat er minder kans op fouten is tijdens de volgende stap. TEXTA
+Onderzoek, Onderzoek en meer onderzoek. Aan het begin van het project is het natuurlijk super belangrijk om eerst alles op papier duidelijk te krijgen voordat we beginnen met het bouwen. Door alles eerst te onderzoeken zorgen we dat er minder kans op fouten is tijdens de volgende stap. MAINT
 
- TEXTB
 
- TEXTC
-
- TEXTD
+ EP2
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ SP1
 Start van het project KOP 
 back2.jpg POSTIMG
 
-In dit blog lees je over ons project om een robot te bouwen. De robot die wij gaan bouwen moet veel verschillende functies hebben zoals: dansen, een parkour afleggen en bloemen etc kunnen planten. We gaan met een team van 15 man aan de slag om deze robot te bouwen. We houden dit blog bij om onze voortgang te delen. TEXTA
+In dit blog lees je over ons project om een robot te bouwen. De robot die wij gaan bouwen moet veel verschillende functies hebben zoals: dansen, een parkour afleggen en bloemen etc kunnen planten. We gaan met een team van 15 man aan de slag om deze robot te bouwen. We houden dit blog bij om onze voortgang te delen. MAINT
 
-De eerste week van het project was natuurlijk even kennis maken en afspraken maken. De 2e week van het project zijn we wezen borrelen om erkaar wat beter te leren kennen. TEXTB
+De eerste week van het project was natuurlijk even kennis maken en afspraken maken. De 2e week van het project zijn we wezen borrelen om erkaar wat beter te leren kennen. TEXT
 
-We hebben samen als team besloten om elke werkdag fysiek dag op school te gaan werken tenzij niet anders kan. TEXTC
+We hebben samen als team besloten om elke werkdag fysiek dag op school te gaan werken tenzij niet anders kan. TEXT
 
- TEXTD
+ EP1
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 //summary post

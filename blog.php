@@ -21,10 +21,10 @@ if ($_GET['project']=="flower")
 
 $linecount = 0;
 $leftover = [];
-$amountAlinea = 0;
 $kopjes = [];
 $texten = [];
 $postimg = [];
+$amountPosts = 0;
 
 while(!feof($myfile)){
   	$line = fgets($myfile);
@@ -38,11 +38,10 @@ while(!feof($myfile)){
 	}else if(strpos($line, 'DISC') !== false){
 		$disc = str_replace("DISC"," ", $line) ;
 	}else if(strpos($line, 'KOP') !== false){
-		$amountAlinea++;
 		$kop = str_replace("KOP"," ", $line) ;
 		array_push($kopjes, $kop);
-	}else if(strpos($line, 'TEXTA') !== false){
-		$text = str_replace("TEXTA"," ", $line) ;
+	}else if(strpos($line, 'MAINT') !== false){
+		$text = str_replace("MAINT"," ", $line) ;
 		array_push($texten, $text);
 	}if(strpos($line, 'POSTIMG') !== false){
 		$img = str_replace("POSTIMG"," ", $line) ;
@@ -51,6 +50,7 @@ while(!feof($myfile)){
 		array_push($leftover, $line);
 	}
 }
+$amountPosts = count($kopjes);
 
 fclose($myfile);
 ?>
@@ -78,7 +78,7 @@ fclose($myfile);
 	    		<h1 class="text-center m-4"><?php echo $title;?> Blog </h1>
     			<hr>
 			    <?php 
-			    	for($i=0; $i< $amountAlinea; $i++){
+			    	for($i=0; $i< $amountPosts; $i++){
 			    		echo '  <div class="row p-4">
 				    				<div class="col-lg-6 m-auto">
 										<img src="img/'.$postimg[$i].'" class="card-img" alt="..." style="border-radius: 6px;">  	
@@ -86,7 +86,7 @@ fclose($myfile);
 									<div class="col-lg-6">
 										<h1>' .  $kopjes[$i] . ' </h1>
 										<p>' .  $texten[$i] . '</p>   	
-										<a href="blogPost.php?num= '. $blognum .' & postnum='. $a =$i + 1  .'" class="butt" style="background-color: #46c2c7; border-radius: 30px;">Go to the blog</a>	
+										<a href="blogPost.php?num= '. $blognum .' & postnum='. $a =$amountPosts -$i  .'" class="butt" style="background-color: #46c2c7; border-radius: 30px;">Go to the blog</a>	
 									</div>
 								</div>';
 	    			}

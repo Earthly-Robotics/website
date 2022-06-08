@@ -20,15 +20,21 @@ if ($_GET['num']==1)
 }
 
 $leftover = [];
-$kopjes = [];
-$textenA = [];
-$textenB = [];
-$textenC = [];
-$textenD = [];
+$texten = [];
+$postImgs = [];
 
+$amountTexts = 0;
+$amountPictures = 0;
+
+$postnum = $_GET['postnum'];
+$var = "SP".$postnum;
+$var2 = "EP" .$postnum;
+
+//echo 'POSTNUM'.$postnum;
 
 while(!feof($myfile)){
   	$line = fgets($myfile);
+  	//echo 'BBB'. $line;
   	if (strpos($line, 'TITLE') !== false) {
     	$title = str_replace("TITLE"," ", $line) ;
 	}else if(strpos($line, 'FRONTIMG') !== false){
@@ -37,40 +43,32 @@ while(!feof($myfile)){
 		$backImg = str_replace("BACKIMG"," ", $line) ;
 	}else if(strpos($line, 'DISC') !== false){
 		$disc = str_replace("DISC"," ", $line) ;
-	}else if(strpos($line, 'KOP') !== false){
-		$kop = str_replace("KOP"," ", $line) ;
-		array_push($kopjes, $kop);
-	}else if(strpos($line, 'TEXTA') !== false){
-		$text = str_replace("TEXTA"," ", $line) ;
-		array_push($textenA, $text);
-	}if(strpos($line, 'TEXTB') !== false){
-		$text = str_replace("TEXTB"," ", $line) ;
-		array_push($textenB, $text);
-	}if(strpos($line, 'TEXTC') !== false){
-		$text = str_replace("TEXTC"," ", $line) ;
-		array_push($textenC, $text);
-	}if(strpos($line, 'TEXTD') !== false){
-		$text = str_replace("TEXTD"," ", $line) ;
-		array_push($textenD, $text);
-	}if(strpos($line, 'POSTIMG') !== false){
-		$postImg = str_replace("POSTIMG"," ", $line) ;
-	}if(strpos($line, 'EXTRA') !== false){
-		$textE = str_replace("EXTRA"," ", $line) ;
-		array_push($textenE, $textE);
-	}else{
-		array_push($leftover, $line);
+	}
+
+	if(strpos($line, $var) !==false){
+		while(strpos($line,$var2)!==true){
+			$linee = fgets($myfile);
+			if(strpos($linee, 'MAINT') !== false){
+				$mtext = str_replace("MAINT"," ", $linee) ;
+				array_push($texten,$mtext);	
+			}else if(strpos($linee, 'TEXT') !== false){
+				$text = str_replace("TEXT"," ", $linee) ;
+				array_push($texten,$text);	
+			}else if(strpos($linee, 'POSTIMG') !== false){
+				$postImg = str_replace("POSTIMG"," ", $linee) ;
+				array_push($postImgs,$postImg);	
+			}else if (strpos($linee, 'KOP')!==false) {
+				$kop = str_replace("KOP"," ", $linee) ;
+			} else if(strpos($linee, $var2)!==false){
+				break;
+			}
+		}
+		$amountTexts = count($texten);
+		$amountPictures = count($postImgs);
+		//echo " texts: " . $amountTexts . " pics: " . $amountPictures;
+		break;
 	}
 }
-
-$postnum = $_GET['postnum'];
-// var_dump(implode(",", $kopjes));
-$kopje = $kopjes[$postnum -1];
-$textA = $textenA[$postnum-1];
-$textB = $textenB[$postnum -1];
-$textC = $textenC[$postnum-1];
-$textD = $textenD[$postnum-1];
-
-
 
 fclose($myfile);
 ?>
@@ -99,17 +97,24 @@ fclose($myfile);
  					<div class="m-5">
 			     		<h1 class="fw-bold"><?php echo $title; ?></h1>
 					    <p> <?php echo $disc; ?></p>
-					    <h3><?php echo $kopje; ?></h3>
-					    <p><?php echo $textA; ?></p>
-					    <p><?php echo $textB; ?></p>
-					    <p><?php echo $textC; ?></p>
-					    <p><?php echo $textD; ?></p>
+					    <h3><?php echo $kop; ?></h3>
+					    <?php 
+					    	for($i=0; $i< $amountTexts; $i++){
+					    		echo '<p>'.$texten[$i].'</p>';
+					   	 	}
+					    ?>
+					    
 					    
 					   
 			     	</div>
  				</div>
  				<div class="col-lg-6 p-5">
- 					<?php echo '<img src=img/'.$postImg.' class=img-fluid alt= post image>'?>
+ 					<?php 
+ 						for($i=0; $i< $amountPictures; $i++){
+					    	echo '<img src=img/'.$postImgs[$i].' class=img-fluid alt= post image>';
+					   	}
+ 						
+ 					?>
  				</div>
  			</div>
     	</div>

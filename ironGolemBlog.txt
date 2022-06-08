@@ -3,9 +3,8 @@ IronGolem.png FRONTIMG
 back2.jpg BACKIMG
 Project has not started yet DISC
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ SP1
 Start Project KOP
 back2.jpg POSTIMG
-Project has not started yet TEXTA
- TEXTB
- TEXTC
- TEXTD
+Project has not started yet MAINT
+ EP1
