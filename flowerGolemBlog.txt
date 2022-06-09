@@ -1,12 +1,28 @@
 Flower Golem TITLE 
 FlowerGolem.png FRONTIMG
 back3.jpg BACKIMG 
-Earthly Robotics wil de wereld verbeteren. Na een aantal successen willen we weer een robot ontwikkelen. Deze moet de wereld vergroenen, problemen als klimaatverandering en het uitsterven van de bij helpen oplossen. Dit is de 1e robot die ons bedrijf gebouwt wordt.  DISC 
+Earthly Robotics wil de wereld verbeteren. Na een aantal successen willen we weer een robot ontwikkelen. Deze moet de wereld vergroenen, problemen als klimaatverandering en het uitsterven van de bij helpen oplossen. Dit is de 1e robot die ons bedrijf gebouwd wordt.  DISC 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ SP4
+Eerste prototypes KOP 
+elektro1.jpg MAINPI
+hopper1.jpg POSTIMG
+chassis_top1.jpg POSTIMG
+chassis_bottom1.jpg POSTIMG
+
+Er is begonnen aan de productie van de verschillende onderdelen. De verschillende disciplines zijn hard bezig, de druk stijgt. MAINT
+
+
+ICT is druk bezig om met elektrotechniek samen verschillende onderdelen aan te sluiten, zodat ICT bezig kan met het aansturen van deze onderdelen. TEXT
+Werktuigbouwkunde heeft de eerste prototypes af, met overleg worden de volgende versies ontworpen. TEXT
+
+De afbeeldingen hier geven een impressie van de prototypes. De controller en het aansturen van verschillende onderdelen is als eerst te zien. Dit is tijdelijk op breadboards gemaakt, zodat we makkelijk kunnen testen. Ten tweede is er een hopper te zien, waar zaadjes mee worden geplaatst op het land. De derde en vierde afbeelding is de eerste versie van de onder en bovenkant van het chassis van de robot te zien. Waar in de bovenkant een wiel te zien is, die door het gat in de onderkant komt, die zorgt voor meer stabiliteit, grip en stuurkracht. TEXT
+
+ EP4
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  SP3
 Trial and Error KOP 
 back1.jpg MAINPI
-back2.jpg POSTIMG
 
 Na lang onderzoek te hebben gedaan zijn we de afgelopen weken bezig geweest met dat onderzoek omzetten in bouwtekeningen, en prototypes. Natuurlijk hebben we die prototype onderdelen moeten testen en daarop baseren wat de volgende stappen zijn binnen het bouwprocess. MAINT
 

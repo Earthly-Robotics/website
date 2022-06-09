@@ -5,6 +5,6 @@ Project has not started yet DISC
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  SP1
 Start Project KOP
-back2.jpg POSTIMG
+back2.jpg MAINPI
 Project has not started yet MAINT
  EP1

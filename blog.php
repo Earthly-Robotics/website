@@ -78,18 +78,20 @@ fclose($myfile);
 	    		<h1 class="text-center m-4"><?php echo $title;?> Blog </h1>
     			<hr>
 			    <?php 
-			    	for($i=0; $i< $amountPosts; $i++){
-			    		echo '  <div class="row p-4">
-				    				<div class="col-lg-6 m-auto">
-										<img src="img/'.$postimg[$i].'" class="card-img" alt="..." style="border-radius: 6px;">  	
-									</div>
-									<div class="col-lg-6">
-										<h1>' .  $kopjes[$i] . ' </h1>
-										<p>' .  $texten[$i] . '</p>   	
-										<a href="blogPost.php?num= '. $blognum .' & postnum='. $a =$amountPosts -$i  .'" class="butt" style="background-color: #46c2c7; border-radius: 30px;">Go to the blog</a>	
-									</div>
-								</div>';
-	    			}
+					if ($amountPosts != 0){
+			    		for($i=0; $i< $amountPosts; $i++){
+			    			echo '  <div class="row p-4">
+				    					<div class="col-lg-6 m-auto">
+											<img src="img/'.$postimg[$i].'" class="card-img" alt="..." style="border-radius: 6px;">  	
+										</div>
+										<div class="col-lg-6">
+											<h1>' .  $kopjes[$i] . ' </h1>
+											<p>' .  $texten[$i] . '</p>   	
+											<a href="blogPost.php?num= '. $blognum .' & postnum='. $a =$amountPosts -$i  .'" class="butt" style="background-color: #46c2c7; border-radius: 30px;">Go to the blog</a>	
+										</div>
+									</div>';
+	    				}
+					}
 				?>	
 			</div>
 		</div>

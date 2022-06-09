@@ -138,8 +138,9 @@ for($i=0; $i<$p; $i++){
      				</div>
      				<div class="col-lg-6 align-self-center">
      					<div class="center">
-				     		<h1 class="text-white pt-3">Ons Blog</h1>
+				     		<h1 class="text-white pt-3">Onze Blog</h1>
 				     		<p class="text-white">Wat we willen bereiken in de toekomst met dit bedrijf</p>
+							<a href="blog.php?project=flower" class="butt ">View Blog</a>
 				     	</div>
      				</div>
      			</div>
