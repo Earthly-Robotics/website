@@ -57,6 +57,9 @@ while(!feof($myfile)){
 			}else if(strpos($linee, 'POSTIMG') !== false){
 				$postImg = str_replace("POSTIMG"," ", $linee) ;
 				array_push($postImgs,$postImg);	
+			}else if(strpos($linee, 'MAINPI') !== false){
+				$postImgm = str_replace("MAINPI"," ", $linee) ;
+				array_push($postImgs,$postImgm);	
 			}else if (strpos($linee, 'KOP')!==false) {
 				$kop = str_replace("KOP"," ", $linee) ;
 			} else if(strpos($linee, $var2)!==false){

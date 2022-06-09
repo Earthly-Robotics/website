@@ -43,8 +43,8 @@ while(!feof($myfile)){
 	}else if(strpos($line, 'MAINT') !== false){
 		$text = str_replace("MAINT"," ", $line) ;
 		array_push($texten, $text);
-	}if(strpos($line, 'POSTIMG') !== false){
-		$img = str_replace("POSTIMG"," ", $line) ;
+	}if(strpos($line, 'MAINPI') !== false){
+		$img = str_replace("MAINPI"," ", $line) ;
 		array_push($postimg, $img);
 	}else{
 		array_push($leftover, $line);
