@@ -3,6 +3,23 @@ FlowerGolem.png FRONTIMG
 back3.jpg BACKIMG 
 Earthly Robotics wil de wereld verbeteren. Na een aantal successen willen we weer een robot ontwikkelen. Deze moet de wereld vergroenen, problemen als klimaatverandering en het uitsterven van de bij helpen oplossen. Dit is de 1e robot die ons bedrijf gebouwd wordt.  DISC 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ SP5
+Documenten en afronden KOP 
+wtb_arm.jpg MAINPI
+elektro2.jpg POSTIMG
+
+De kwalificatie komt dichterbij, alle disciplines werken hard door. Alle onderdelen komen dichterbij elkaar en worden goed op elkaar afgestemd. MAINT
+
+
+ICT is de laatste puntjes op de i aan het zetten, zodat de code met zo weinig mogelijk aanpassingen moet werken. TEXT
+
+Elektrotechniek produceert binnenkort het PCB, waarmee alle draden op de breadboards verdwijnen in een mooi compact computerbord. TEXT
+
+Werktuigbouwkunde produceert de laatste versies van alle onderdelen. De arm wordt in elkaar gezet, de tweede rupsband wordt geproduceerd en dit wordt allemaal zo snel mogelijk in elkaar gezet. TEXT
+
+De benodigde documenten wordt ook druk aan gewerkt. TEXT
+ EP5
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  SP4
 Eerste prototypes KOP 
 elektro1.jpg MAINPI

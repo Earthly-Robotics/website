@@ -57,7 +57,7 @@ for($i=0; $i<$p; $i++){
      				<div class="col-lg-6 align-self-center">
      					<div class="center">
 				     		<h1 class="text-white pt-3">Ons Doel</h1>
-				     		<p class="text-white">een nieuwe manier vinden om robotica-expertise in te zetten om de wereld te vergroenen en bijen weer een zonnige toekomst te bieden.</p>
+				     		<p class="text-white">Een nieuwe manier vinden om robotica-expertise in te zetten om de wereld te vergroenen en bijen weer een zonnige toekomst te bieden.</p>
 				     	</div>
      				</div>
      			</div>
@@ -139,7 +139,7 @@ for($i=0; $i<$p; $i++){
      				<div class="col-lg-6 align-self-center">
      					<div class="center">
 				     		<h1 class="text-white pt-3">Onze Blog</h1>
-				     		<p class="text-white">Wat we willen bereiken in de toekomst met dit bedrijf</p>
+				     		<p class="text-white">De voortgang van onze reis in de ondernemerswereld.</p>
 							<a href="blog.php?project=flower" class="butt ">View Blog</a>
 				     	</div>
      				</div>
@@ -148,25 +148,17 @@ for($i=0; $i<$p; $i++){
      	</div>
      	<div class="container-fluid">
      		<div class="container">
-     			<div class="row">
+     			<div class="row d-flex justify-content-center">
 	    			<div class="col-lg-12">
 	    				<h1 class="text-center m-4">Met dank aan onze sponsor </h1>
 	    			</div>
-	    			<div class="col-lg-4">
-	    				<a class="" href="https://www.hzpc.com/nl">
-	    					<img src="img/Logo_Small_Red.png" class="card-img" alt="sponsor" >
-	    				</a>
-	    			</div>
-					<div class="col-lg-4">
+
+					<div class="col-lg-12 w-50">
 						 <a class="" href="https://www.hzpc.com/nl">
 	    					<img src="img/Logo_Small_Red.png" class="card-img" alt="sponsor" >
 	    				</a>
 					</div>
-					<div class="col-lg-4">
-						<a class="" href="https://www.hzpc.com/nl">
-	    					<img src="img/Logo_Small_Red.png" class="card-img" alt="sponsor" >
-	    				</a>
-					</div>
+
 					
 					</div>
 	    		</div>
