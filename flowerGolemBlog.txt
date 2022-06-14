@@ -3,6 +3,24 @@ FlowerGolem.png FRONTIMG
 back3.jpg BACKIMG 
 Earthly Robotics wil de wereld verbeteren. Na een aantal successen willen we weer een robot ontwikkelen. Deze moet de wereld vergroenen, problemen als klimaatverandering en het uitsterven van de bij helpen oplossen. Dit is de 1e robot die ons bedrijf gebouwd wordt.  DISC 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ SP7
+PCB, controller en chassis af KOP 
+controller.jpg MAINPI
+chassis_bottom2.jpg POSTIMG
+pcb3.jpg POSTIMG
+arm2.jpg POSTIMG
+
+Het pcb, controller en chassis is af. Nu wordt het samenvoegen, dit wordt zeer spannend. MAINT
+
+Het pcb zit in elkaar. De kortsluitingen zijn eruit gehaald. De servo aansturen werkt niet meer, dit wordt debuggen. TEXT
+ 
+De controller is nu ook af. Deze zit in een 3d-geprinte behuizing. Alle componenten zitten nu vast. TEXT
+
+Het chassis is zo goed als af. De arm is inmiddels ook gemonteerd en alle servo's zitten erop. TEXT
+
+Dit wordt nog een erg spannende periode en het wordt doorbuffelen tot de kwalificatie. TEXT
+ EP7
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  SP6
 PCB geëtst en gesoldeerd KOP 
 pcb1.jpg MAINPI
