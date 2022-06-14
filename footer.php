@@ -12,6 +12,7 @@
 		    <div class="col-lg-6 text-white ">
 		      <h5>Robotica project 2022</h5>
 		      <p >Datum dat we de race hebben: 23 Juni 2022</p>
+		      <h5>Werktijden:</h5>
 		      <ul class="col-md-6" style="float: left;">
 		        <p>Maandag</p>
 		        <p>Dinsdag</p>

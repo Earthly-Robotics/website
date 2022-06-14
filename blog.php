@@ -82,7 +82,7 @@ fclose($myfile);
 			    		for($i=0; $i< $amountPosts; $i++){
 			    			echo '  <div class="row p-4">
 				    					<div class="col-lg-6 m-auto">
-											<img src="img/'.$postimg[$i].'" class="card-img" alt="..." style="border-radius: 6px;">  	
+											<img src="img/'.$postimg[$i].'" class="card-img w-50" alt="..." style="border-radius: 6px;">  	
 										</div>
 										<div class="col-lg-6">
 											<h1>' .  $kopjes[$i] . ' </h1>

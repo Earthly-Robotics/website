@@ -29,7 +29,7 @@ body{
   left:20%;
 }
 .col-lg-6 .card-img {
-    width: 50%;
+    width: 100% !important;
     float: right
 }
 .img-fluid[alt~="post"] {
