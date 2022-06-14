@@ -3,6 +3,19 @@ FlowerGolem.png FRONTIMG
 back3.jpg BACKIMG 
 Earthly Robotics wil de wereld verbeteren. Na een aantal successen willen we weer een robot ontwikkelen. Deze moet de wereld vergroenen, problemen als klimaatverandering en het uitsterven van de bij helpen oplossen. Dit is de 1e robot die ons bedrijf gebouwd wordt.  DISC 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ SP6
+PCB geëtst en gesoldeerd KOP 
+pcb1.jpg MAINPI
+pcb2.jpg POSTIMG
+vijlen.jpeg POSTIMG
+
+Het ontwerp van het PCB is af. Inmiddels is er druk bezig geweest met het etsen en solderen van de componenten op het PCB. Ook worden de laatste aanpassingen gedaan aan het chassis als voorbereiding voor de kwalificatie. MAINT
+
+Nu is het tijd om het PCB te testen. Om te kijken of het PCB klopt wordt er getest op kortslutingen. Helaas is er inderdaad een kortsluiting ontstaan. Er wordt druk gewerkt om op tijd de kortsluiting te vinden, zodat de robot in elkaar gezet kan worden en de kabels vervangen kunnen worden door het PCB. TEXT
+ 
+In de werkplaats wordt druk gewerkt om het chassis gereed te maken voor de kwalificatie.  TEXT
+ EP6
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  SP5
 Documenten en afronden KOP 
 wtb_arm.jpg MAINPI
@@ -24,8 +37,8 @@ De benodigde documenten wordt ook druk aan gewerkt. TEXT
 Eerste prototypes KOP 
 elektro1.jpg MAINPI
 hopper1.jpg POSTIMG
-chassis_top1.jpg POSTIMG
 chassis_bottom1.jpg POSTIMG
+chassis_top1.jpg POSTIMG
 
 Er is begonnen aan de productie van de verschillende onderdelen. De verschillende disciplines zijn hard bezig, de druk stijgt. MAINT
 
