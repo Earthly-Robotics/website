@@ -3,6 +3,36 @@ FlowerGolem.png FRONTIMG
 back3.jpg BACKIMG 
 Earthly Robotics wil de wereld verbeteren. Na een aantal successen willen we weer een robot ontwikkelen. Deze moet de wereld vergroenen, problemen als klimaatverandering en het uitsterven van de bij helpen oplossen. Dit is de 1e robot die ons bedrijf gebouwd wordt.  DISC 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ SP8
+Kwalificatiedag! KOP 
+finished_robot.jpg MAINPI
+qualifying_assembly.jpg POSTIMG
+oscilloscope.jpg POSTIMG
+qualifying1.jpg POSTIMG
+
+De kortsluiting is gevonden. We hadden nog een uur om de robot in elkaar te zetten, dit wordt hard werken. MAINT
+
+De servo's werkte niet door een nieuwe kortsluiting, deze is met behulp van een elektrotechniekdocent gevonden. Er kwamen twee pins tegen elkaar aan, snel dit oplossen en de robot in elkaar zetten. TEXT
+ 
+<b>Er is nog een halfuur over.</b> De printplaat kan de servo's weer aansturen! Nu is het hard werken om alle onderdelen in de robot te krijgen. Met passen en meten past het met de tijdsdruk allemaal net niet, kabelgaten zijn net niet groot genoeg gemaakt. Snel de gaten groter maken in de werkplaats. TEXT
+
+<b>Nog een kwartier.</b> De gaten zijn groter gemaakt en de kabels passen nu. Dit wordt heel krap. TEXT
+
+<b>Het is tijd.</b> Gelukkig zijn de pitches eerst en zijn wij op plaats 7 aan de beurt. De robot is meegenomen naar het studielandschap, hier wordt nog druk aangwerkt om hem op tijd in elkaar te zetten. TEXT
+
+Wij zijn aan de beurt. Het chassis is net op tijd dicht. De pitch is door Andries-Jan verzorgt, een kort maar sterke pitch die genoeg informatie geeft. TEXT
+
+Nu mogen we door het poortje rijden. Dit is de eerste keer dat hij getest wordt. De controller kon de robot in één keer aansturen en hij werkt goed. Helaas pastte de robot net niet door het poortje. De robot heeft alleen last van input-lag, later is er een bug gevonden in de code waarmee teveel threads waren aangemaakt. Bij elke input werd een nieuwe thread aangemaakt. Dit tikt aan, omdat de robot wel een paar honderd berichten per seconde. Hoe langer de controller berichten stuurt hoe meer vertraging de robot krijgt. TEXT
+
+Ook hebben we het wegen van het gewicht gehaald, de afwijking was maar 3 gram. Waar een foutmarge van 5 is toegestaan. TEXT
+
+De volgende uitdaging die we hebben gedaan is het obstakelparcours. Dit ging verrassend goed en haalde het parcours in één keer, het enigste waar problemen mee waren was de schuine balk, waar de robot goed voor moest staan om het te halen. Ook bleef de robot even hangen achter het tapijt/nepgras. Hieronder nog een video van deze uitdaging. TEXT
+
+We hadden het poortje nog een keer geprobeerd, waar we de rupsen omgedraaid hadden, waardoor hij lager op de grond zit. Dit lukte ook niet, er staken nog wat componenten aan de onderkant uit waardoor hij geen contact krijgt met de grond. Ook hebben we het vision onderdeel nog geprobeerd. Helaas waren hier nog wat bugs, waardoor hij het blauwe blokje niet goed kon volgen. TEXT
+<video src="video/obstacle_course.mp4" width=100%  controls poster="video/obstacle_course.jpg"></video>TEXT
+
+ EP8
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  SP7
 PCB, controller en chassis af KOP 
 controller.jpg MAINPI
